@@ -1,0 +1,9 @@
+目前我只知道，直接对话对象是我创建的机器人。
+我在想，是否能通过机器人，把任何资源传送给特定联系人？
+不行，机器人我目前理解只能被动地回复内容。流行的做法是，你找到这个机器人，发送特定语句，它回复你想要的内容。好像也可以把机器人拉进群组，进行功能。
+Reading/writing a TV show review
+Sharing a hiking route and photos to other users.
+Sharing a cooking video.
+目标：做一个机器人。可输出输出文字，图片，视频并分类查看。可修改文字。文字的话实际是文章，有标题和内容。
+用什么数据库呢？未定。反正firebase也是nosql数据库，key-value。
+进展：目前无，先只做一个video功能。在redis测试好，功能有，上传，查看全部，选择一个。
